@@ -87,4 +87,22 @@ else{
 
 //Exemplo: bishop (bispo) -> diagonals (diagonais)
 
-let pecaDoXadrez = 
+let pecaDoXadrez = "bispo"
+
+
+switch(pecaDoXadrez) {
+  case "bispo": 
+  console.log("ande na diagonal");
+  break; 
+
+  case "cavalo": 
+  console.log("andar em L");
+  break; 
+
+  case "torre": 
+  console.log("ande em linha reta");
+  break; 
+
+  default:
+    console.log(""); 
+}
